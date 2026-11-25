@@ -1,0 +1,67 @@
+{
+    "project_meta": {
+        "title": "This Too Shall Pass",
+        "inspiration": "Elder brother's enduring wisdom during moments of overwhelm",
+        "target_duration_sec": 50,
+        "aspect_ratio": "16:9",
+        "resolution": "1920x1080",
+        "fps": 24,
+        "text_model": "gemini-3.5-flash"
+    },
+    "style_bible": {
+        "visual_prefix": "Cinematic 35mm film still, Kodak Portra 400 color grading, shallow depth of field, natural atmospheric lighting, photorealistic, high emotional realism, 16:9 aspect ratio --no text, watermarks, distorted hands",
+        "character_anchor": "An East African young adult in their late 20s wearing a dark textured knit sweater, thoughtful expression",
+        "audio_tone": "Warm, unhurried, intimate spoken-word narration with soft ambient rain transitioning into gentle morning acoustic resonance"
+    },
+    "scenes": [{
+            "scene_id": 1,
+            "title": "The Weight",
+            "duration_sec": 10,
+            "narration": "There are nights when the weight of everything unfinished feels permanent.",
+            "visual_prompt": "An East African young adult in their late 20s wearing a dark textured knit sweater, sitting at a cluttered wooden desk late at night, illuminated only by a warm desk lamp, rain streaks on a dark window behind them, exhausted posture, head resting in one hand.",
+            "camera_motion": "slow_push_in",
+            "transition_out": "fade",
+            "subtitle_text": "There are nights when the weight of everything unfinished feels permanent."
+        },
+        {
+            "scene_id": 2,
+            "title": "The Anchor",
+            "duration_sec": 10,
+            "narration": "That is when I hear my older brother's voice—steady, unshaken, reminding me.",
+            "visual_prompt": "Extreme close-up on a weathered cream-colored notebook on a wooden desk, a fountain pen resting beside a handwritten note, soft warm tungsten lamp glow highlighting paper grain and dust motes in the air.",
+            "camera_motion": "slow_pan_right",
+            "transition_out": "fade",
+            "subtitle_text": "That is when I hear my older brother's voice—steady, unshaken, reminding me."
+        },
+        {
+            "scene_id": 3,
+            "title": "The Passage",
+            "duration_sec": 10,
+            "narration": "No storm owns the sky forever. Even the heaviest hour moves.",
+            "visual_prompt": "Wide cinematic landscape of misty Ethiopian highland hills at the break of dawn, heavy dark rain clouds parting as golden morning sunbeams pierce through the valley below, atmospheric mist.",
+            "camera_motion": "slow_pull_out",
+            "transition_out": "fade",
+            "subtitle_text": "No storm owns the sky forever. Even the heaviest hour moves."
+        },
+        {
+            "scene_id": 4,
+            "title": "The Shift",
+            "duration_sec": 11,
+            "narration": "You do not have to solve the whole road tonight. Just breathe, and take the next step.",
+            "visual_prompt": "Morning golden sunlight streaming through a clean window onto a tidy wooden desk, an East African young adult in their late 20s wearing a dark textured knit sweater standing calmly by the window holding a warm ceramic mug, peaceful expression.",
+            "camera_motion": "slow_push_in",
+            "transition_out": "fade",
+            "subtitle_text": "You do not have to solve the whole road tonight. Just breathe, and take the next step."
+        },
+        {
+            "scene_id": 5,
+            "title": "The Echo",
+            "duration_sec": 9,
+            "narration": "This too shall pass.",
+            "visual_prompt": "Minimalist sunlit wooden tabletop with warm morning shadows of windowpanes cast across the grain, a single small green plant leaf catching golden light, tranquil stillness.",
+            "camera_motion": "static_hold",
+            "transition_out": "fade_to_black",
+            "subtitle_text": "\"This too shall pass.\""
+        }
+    ]
+}
